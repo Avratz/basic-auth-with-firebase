@@ -1,11 +1,13 @@
 import React from 'react'
+import Login from 'auth/screens/Login.js'
+import CleanAndCenterLayout from 'app/layout/CleanAndCenterLayout/CleanAndCenterLayout'
 
-const Login = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const LoginPage = () => {
+	return (
+		<CleanAndCenterLayout>
+			<Login />
+		</CleanAndCenterLayout>
+	)
 }
 
-export default Login
+export default LoginPage

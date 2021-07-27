@@ -1,0 +1,24 @@
+@import '../../../styles/variables';
+
+.selectBox {
+	width: 100%;
+	height: 44px;
+	border: 1px solid $gray;
+	background-color: $white;
+	color: $text;
+	padding: 0 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+  outline: none;
+}
+
+.error {
+	color: $error;
+	margin: 0 !important;
+	font-size: 11px;
+}
+
+.errorSelectBox {
+	outline: $error-outline auto 1px;
+	margin-bottom: 0.2rem !important;
+}

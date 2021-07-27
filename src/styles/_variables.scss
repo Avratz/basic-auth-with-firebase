@@ -1,0 +1,50 @@
+// color-palette
+$blue-50: #eff6ff;
+$blue-100: #dbeafe;
+$blue-200: #bfdbfe;
+$blue-300: #93c5fd;
+$blue-400: #60a5fa;
+$blue-500: #3b82f6;
+$blue-600: #2563eb;
+$blue-700: #1d4ed8;
+$blue-800: #1e40af;
+$blue-900: #1e3a8a;
+
+//--
+
+$primary: $blue-500;
+$primary-light: $blue-200;
+$primary-dark: $blue-600;
+$secondary: #97cf00;
+$text: #1b263c;
+$text-light: #7a8cb1;
+$outline: #dce8ff;
+$light-bg: #f2f5fa;
+$white: #fff;
+$fwhite: #fafafa;
+$error: #f44336;
+$error-outline: #e57373;
+
+$line: #eff1f5;
+$gray: #d3d3d3;
+$gray-dark: #999;
+
+//shadows
+$shadow-1: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15);
+$shadow-2: 0 2px 5px rgba(0, 0, 0, 0.14), 0 2px 5px rgba(0, 0, 0, 0.2);
+$shadow-3: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.15);
+
+//animations
+$animation-1: all 0.2s cubic-bezier(0.26, 0.8, 0.26, 1);
+
+@keyframes pulse {
+  0% {
+    background-color: $fwhite;
+  }
+  50% {
+    background-color: $line;
+  }
+  100% {
+    background-color: $fwhite;
+  }
+}

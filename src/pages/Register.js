@@ -1,11 +1,13 @@
 import React from 'react'
+import Register from 'auth/screens/Register.js'
+import CleanAndCenterLayout from 'app/layout/CleanAndCenterLayout/CleanAndCenterLayout'
 
-const Register = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+const RegisterPage = () => {
+	return (
+		<CleanAndCenterLayout>
+			<Register />
+		</CleanAndCenterLayout>
+	)
 }
 
-export default Register
+export default RegisterPage

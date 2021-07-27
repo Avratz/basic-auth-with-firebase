@@ -1,0 +1,30 @@
+@import-normalize;
+@import './variables';
+@import './mixins';
+@import './helpers';
+
+html{
+	box-sizing: border-box;
+	font: inherit;
+	font: 15px sans-serif;
+	color: $text;
+}
+
+* {
+	box-sizing: inherit;
+	font: inherit;
+	color: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
